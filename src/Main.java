@@ -3,7 +3,7 @@ public class Main {
 
             taskOneTwo (); // 1 и 2 задание
             taskThree (); // 3 задание
-            taskFour (); // 4 задание
+            taskFour (); // 4 заданиее
         }
         public static void taskOneTwo () {
 
