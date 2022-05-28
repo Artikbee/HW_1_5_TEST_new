@@ -8,7 +8,10 @@ public class Main {
         public static void taskOneTwo () {
 
             // 1 массив
-            int [] a = new int []{1, 2, 3};
+            int [] a = new int [3];
+            a[0] = 1;
+            a[1] = 2;
+            a[2] = 3;
             for (int i = 0; i < a.length; i++) {
                 System.out.print(a[i]);
                 if (i < a.length - 1){
@@ -41,7 +44,10 @@ public class Main {
         public static void taskThree () {
 
             // 1 массив
-            int [] a1 = new int []{1, 2, 3};
+            int [] a1 = new int [3];
+            a1[0] = 1;
+            a1[1] = 2;
+            a1[2] = 3;
             for (int i = a1.length - 1; i >= 0; i--) {
                 System.out.print(a1[i]);
                 if (i != 0){
@@ -72,7 +78,10 @@ public class Main {
         }
         public static void taskFour (){
             System.out.println();
-            int [] a3 = new int []{1, 2, 3};
+            int [] a3 = new int [3];
+            a3[0] = 1;
+            a3[1] = 2;
+            a3[2] = 3;
             for (int i =0; i < a3.length; i++) {
                 if (a3[i] % 2 != 0){
                     a3[i] +=1;
